@@ -10,7 +10,7 @@ class Student
     new_song.name = row[1]
     new_song.grade = row[2]
     binding.pry
-
+    new_song
   end
 
   def self.all
