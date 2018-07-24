@@ -9,7 +9,7 @@ class Student
     new_song.id = row[0]
     new_song.name = row[1]
     new_song.grade = row[2]
-    binding.pry
+    # binding.pry
     new_song
   end
 
